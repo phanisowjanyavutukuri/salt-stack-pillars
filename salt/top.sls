@@ -4,6 +4,7 @@ base:
      - generate_certs
      - etcd
      - kube_control
+     - worker
 
 
 

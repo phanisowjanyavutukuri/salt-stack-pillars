@@ -1,5 +1,0 @@
-cmd.run:
-    - name: /srv/certs/install_certs.sh
-    - cwd: /
-    - user: root
-    - stateful: True

@@ -26,4 +26,11 @@ run_scheduler_service.sh:
     - cwd: /
     - user: root
     - stateful: True
+run_rbac.sh:
+  cmd.script:
+    - name: rbac.sh
+    - source: salt://kube_control/rbac.sh
+    - cwd: /
+    - user: root
+    - stateful: True
 
